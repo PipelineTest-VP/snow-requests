@@ -1,0 +1,23 @@
+name: 'SNOW APIs demo'
+description: 'SNOW APIs demo'
+inputs:
+  servicenow-username:
+    description: 'Service Now username'
+    required: true
+    default: ''
+  servicenow-password:
+    description: 'Service Now password'
+    required: true
+    default: ''
+  servicenow-endpoint:
+    description: 'Service Now Endpoint'
+    required: true
+    default: ''
+  servicenow-table-name:
+    description: 'Service Now table name'
+    required: true
+    default: ''
+
+runs:
+  using: 'node12'
+  main: 'index.js'
